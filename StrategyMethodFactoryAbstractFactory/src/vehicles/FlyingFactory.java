@@ -10,7 +10,7 @@ package vehicles;
  */
 public class FlyingFactory {
 
-	public Flying createFlying(String string) {
+	public static Flying createFlying(String string) {
 		if(string.equals("Fighter Jet")){
 			return new IFlyLikeFJ();
 		} else if (string.equals("Model Airplane")){

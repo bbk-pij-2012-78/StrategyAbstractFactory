@@ -2,9 +2,9 @@ package tests;
 
 public class Director {
 
-	private HarrierBuilder builder;
+	private Builder builder;
 
-	public Director(HarrierBuilder builder) {
+	public Director(Builder builder) {
 		this.builder = builder;
 	}
 

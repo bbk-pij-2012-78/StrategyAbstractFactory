@@ -9,7 +9,7 @@ package vehicles;
  */
 public class LiftOffFactory {
 
-	public LiftOff createLiftOff(String string) {
+	public static LiftOff createLiftOff(String string) {
 		if(string.equals("Horizontally")){
 			return new ILiftOffH();
 		} else if (string.equals("don't")){
